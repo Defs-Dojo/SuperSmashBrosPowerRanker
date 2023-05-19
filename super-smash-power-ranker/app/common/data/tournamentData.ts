@@ -2,7 +2,7 @@ const data = {
   data: {
     tournament: {
       id: 505027,
-      name: "Def's Dojo Winter Chronicle 2023",
+      name: "Def's Dojo Winter Chronicle 2024",
       events: [
         {
           numEntrants: 0,
