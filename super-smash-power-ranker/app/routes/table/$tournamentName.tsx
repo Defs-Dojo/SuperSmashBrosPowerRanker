@@ -128,11 +128,11 @@ const TableRoute = () => {
         <ul>
           <li>
             <a
-              href="https://www.start.gg/tournament/def-s-dojo-winter-chronicle-2023/events"
+              href="https://www.start.gg/tournament/def-s-dojo-spring-chronicle/events"
               target="_blank"
               rel="noreferrer"
             >
-              Def's Dojo Winter Chronicle 2023
+              Def's Spring Chronicle
             </a>
           </li>
         </ul>
