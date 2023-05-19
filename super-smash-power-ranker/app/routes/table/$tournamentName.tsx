@@ -9,7 +9,7 @@ import toPowerRankingTable from '~/common/adapters/toPowerRankingTable';
 import type { EventModel } from '~/common/types/EventModel';
 import { client } from '~/lib/graphql-client';
 
-const getTournamentEntrants = (tournamentName = 'def-s-dojo-winter-chronicle-2023') => gql`
+const getTournamentEntrants = (tournamentName = 'def-s-dojo-spring-chronicle') => gql`
   query {
     tournament(slug: "${tournamentName}") {
       id
