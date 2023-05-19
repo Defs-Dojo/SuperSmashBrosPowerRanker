@@ -25,7 +25,7 @@ const getTournamentEntrants = (tournamentName = 'def-s-dojo-spring-chronicle') =
   }
 `;
 
-const getTournament = (maxQueryLength: number, tournamentName = 'def-s-dojo-winter-chronicle-2023') => gql`
+const getTournament = (maxQueryLength: number, tournamentName = 'def-s-dojo-spring-chronicle') => gql`
   {
     tournament(slug: "${tournamentName}") {
       id
